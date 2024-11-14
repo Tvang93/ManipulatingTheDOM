@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    margin: 5rem;
+    flex-direction: column;
+}
+
+.new-color {
+    color: red;
+}
+
+.new-size{
+    font-size: 3rem;
+}
+
+.add-bg {
+    background-color: aquamarine;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.add-hover:hover {
+    color:blueviolet;
+    font-size: 3rem;
+}
+
+.set-img-size{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.hide {
+    display: none;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
